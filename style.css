@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.content {
+    margin: 1vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .search input {
+    width: 700px;
+    outline: none;
+    border: 1px solid;
+    height: 35px;
+    border-radius: 40px;
+    font-size: 1.1rem;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.search button {
+    position: absolute;
+    left: 869px;
+    top: 16px;
+    background-color: #fff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 1.4rem;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    cursor: pointer;
+}
+
+.acc-info a {
+    position: relative;
+    left: -30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.acc-info {
+    display: flex;
+    gap: 20px;
+}
+
+.acc-info i {
+    position: relative;
+    top: 2px;
+}
+
+.cart i {
+    position: relative;
+    right: 50px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100%;
+    height: 60vh;
+    background-color: antiquewhite;
+    border-bottom: 2px solid rgb(190, 190, 190);
+}
+
+@keyframes info {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hero .poster img {
+    width: 530px;
+    position: relative;
+    left: 700px;
+    top: -150px;
+    animation: info 1s ease-in-out forwards;
+}
+
+.info {
+    padding-left: 120px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 700px;
+}
+
+.info p {
+    animation: info 1.2s ease-in-out forwards;
+
+}
+
+.info h2 {
+    animation: info 1s ease-in-out forwards;
+
+}
+
+.info .btns input {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    animation: info 1.4s ease-in-out forwards;
+
+
+}
+
+.btns input {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.btns input:hover {
+    scale: .9;
+    transition: all .2s ease-in-out;
+}
+
+.head {
+    text-align: center;
+    margin: 20px;
+}
+
+.main {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    margin-top: 30px;
+    margin-right: 70px;
+    width: 380px;
+    height: 100vw;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.left h2 {
+    margin-top: 10px;
+}
+
+.seprator {
+    border-top: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.left .select {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.select a {
+    width: 65px;
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.left .type {
+    display: flex;
+    flex-direction: column;
+}
+
+.left .type p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.right {
+    padding: 0 30px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin-bottom: 100px;
+    gap: 30px;
+    width: 100%;
+}
+
+.product {
+    width: 30%;
+    padding: 14px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.product-img img {
+    border-radius: 18px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.product-info .title {
+    padding: 5px 5px 10px;
+}
+
+.product-info .title a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.product-info .title p {
+    color: gray;
+    font-weight: 400;
+    width: 80%;
+}
+
+.price h3 {
+    padding-top: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.discount {
+    padding-top: 10px;
+}
+
+.discount h2 {
+    font-weight: 700;
+    font-size: .9rem;
+    color: green;
+}
+
+.cartbtn {
+    position: relative;
+    left: 100px;
+    top: -30px;
+}
+
+.cartbtn button {
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
