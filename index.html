@@ -25,7 +25,7 @@
                 <a href="#">Sign Up <i class='bx bxs-user'></i></a>
             </div>
             <div class="cart">
-                <i class='bx bx-cart'></i>
+                <a href="cart.html"><i class='bx bx-cart'></i> </a>
             </div>
         </div>
     </nav>
@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="right">
-            <div class="product">
+            <div class="product" id="product1">
                 <div class="product-img">
                     <img src="assets/jordan.png" alt="">
                 </div>
@@ -94,12 +94,13 @@
                     <div class="discount">
                         <h2>39% discount</h2>
                     </div>
-                    <div class="cartbtn">
-                        <button><i class='bx bx-cart-add'></i>Add To Cart</button>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product1')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" id="product2">
                 <div class="product-img">
                     <img src="assets/jordan2.png" alt="">
                 </div>
@@ -117,12 +118,13 @@
                     <div class="discount">
                         <h2>50% discount</h2>
                     </div>
-                    <div class="cartbtn">
-                        <button><i class='bx bx-cart-add'></i>Add To Cart</button>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product2')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" id="product3">
                 <div class="product-img">
                     <img src="assets/jordan3.png" alt="">
                 </div>
@@ -140,12 +142,13 @@
                     <div class="discount">
                         <h2>50% discount</h2>
                     </div>
-                    <div class="cartbtn">
-                        <button><i class='bx bx-cart-add'></i>Add To Cart</button>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product3')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" id="product4">
                 <div class="product-img">
                     <img src="assets/jordan5.png" alt="">
                 </div>
@@ -163,12 +166,13 @@
                     <div class="discount">
                         <h2>39% discount</h2>
                     </div>
-                    <div class="cartbtn">
-                        <button><i class='bx bx-cart-add'></i>Add To Cart</button>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product4')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" id="product5">
                 <div class="product-img">
                     <img src="assets/jordan6.png" alt="">
                 </div>
@@ -187,12 +191,13 @@
                     <div class="discount">
                         <h2>39% discount</h2>
                     </div>
-                    <div class="cartbtn">
-                        <button><i class='bx bx-cart-add'></i>Add To Cart</button>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product5')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" id="product6">
                 <div class="product-img">
                     <img src="assets/jordan7.png" alt="">
                 </div>
@@ -210,15 +215,235 @@
                     <div class="discount">
                         <h2>39% discount</h2>
                     </div>
-                    <div class="cartbtn">
-                        <button><i class='bx bx-cart-add'></i>Add To Cart</button>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product6')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product7">
+                <div class="product-img">
+                    <img src="assets/jordan10.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2 style="font-size: 1.05rem;">Jordan 1 Retro MCS Low</h2>
+                        </a>
+                        <p>styles men shoes for fashion</p>
+                    </div>
+                    <div class="price">
+                        <h3>$140</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product7')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product8">
+                <div class="product-img">
+                    <img src="assets/jordan8.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2>Air Jordan</h2>
+                        </a>
+                        <p>styles men shoes for fashion</p>
+                    </div>
+                    <div class="price">
+                        <h3>$129.99</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product8')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product9">
+                <div class="product-img">
+                    <img src="assets/jordan11.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2 style="font-size: 1.1rem;">Air Jordan 1 Low SE</h2>
+                        </a>
+                        <p>styles women shoes for fashion</p>
+                    </div>
+                    <div class="price">
+                        <h3>$120</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product9')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product10">
+                <div class="product-img">
+                    <img src="assets/jordan12.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2>Air Jordan 1 Low</h2>
+                        </a>
+                        <p>styles men shoes for fashion</p>
+                    </div>
+                    <div class="price">
+                        <h3 class="old-price">$189.99</h3>
+                        <h3>$149.99</h3>
+                    </div>
+                    <div class="discount">
+                        <h2>39% discount</h2>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product10')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add
+                            To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product11">
+                <div class="product-img">
+                    <img src="assets/jkid1.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2 style="margin-bottom: 5px;">Jordan 1 Mid SS</h2>
+                        </a>
+                        <p>Jordan 1 Mid SS</p>
+                    </div>
+                    <div class="price">
+                        <h3>$80</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product11')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add
+                            To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product12">
+                <div class="product-img">
+                    <img src="assets/jkid2.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2 style="font-size: 1rem; margin-bottom: 5px;">Air Jordan 1 Retro Low OG Chinese New Year
+                            </h2>
+                        </a>
+                        <p>Big Kids' Shoesn</p>
+                    </div>
+                    <div class="price">
+                        <h3>$120</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product12')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add
+                            To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product13">
+                <div class="product-img">
+                    <img src="assets/jkid2.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2 style="font-size: 1rem; margin-bottom: 5px;">Air Jordan 1 Retro Low OG Chinese New Year
+                            </h2>
+                        </a>
+                        <p>Big Kids' Shoesn</p>
+                    </div>
+                    <div class="price">
+                        <h3>$120</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product13')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add
+                            To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product14">
+                <div class="product-img">
+                    <img src="assets/jkid2.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2 style="font-size: 1rem; margin-bottom: 5px;">Air Jordan 1 Retro Low OG Chinese New Year
+                            </h2>
+                        </a>
+                        <p>Big Kids' Shoesn</p>
+                    </div>
+                    <div class="price">
+                        <h3>$120</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product14')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add
+                            To
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product15">
+                <div class="product-img">
+                    <img src="assets/jkid2.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="title">
+                        <a href="#">
+                            <h2 style="font-size: 1rem; margin-bottom: 5px;">Air Jordan 1 Retro Low OG Chinese New Year
+                            </h2>
+                        </a>
+                        <p>Big Kids' Shoesn</p>
+                    </div>
+                    <div class="price">
+                        <h3>$120</h3>
+                    </div>
+                    <div class="cartbtn" id="cartbtn">
+                        <button onclick="addToCart('product15')" class="add-to-cart"><i class='bx bx-cart-add'></i>Add
+                            To
+                            Cart</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <footer>
+        <div class="bg">
+            <div class="copywrite">
+                <p class="location"><i class='bx bxs-location-plus'></i> Nepal</p>
+                <p class="rights">© 2023 Nep Shoes, Inc. All Rights Reserved</p>
+            </div>
+            <div class="help">
+                <h2>Help</h2>
+                <p>Get Help</p>
+                <p>Order status</p>
+                <p>Delivery</p>
+                <p>Return</p>
+                <p>Payment Option</p>
+            </div>
+            <div class="social">
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-linkedin-square'></i>
+                <i class='bx bxl-instagram'></i>
+            </div>
+        </div>
+    </footer>
 
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>

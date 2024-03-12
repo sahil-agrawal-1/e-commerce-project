@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+h2 {
+    color: #333;
+}
+
+#cart-container {
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-right: 1px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#cart-summary {
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+}
+
+#totalAmount {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 10px;
+    object-fit: cover;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.btn button {
+    position: relative;
+    left: 50px;
+}

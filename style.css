@@ -154,15 +154,16 @@ nav {
     margin-top: 30px;
     margin-left: 40px;
     width: 90%;
-    height: 100vh;
+    height: 340vh;
     display: flex;
+    padding-bottom: 280vh;
 }
 
 .left {
     margin-top: 30px;
     margin-right: 70px;
     width: 380px;
-    height: 100vw;
+    height: 340px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     padding: 10px;
@@ -284,4 +285,77 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 40vh;
+    padding: 18px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    animation: info 1s ease-in-out forwards;
+}
+
+footer .bg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copywrite {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+
+.copywrite p.rights {
+    color: gray;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.copywrite p.location {
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.help {
+    position: relative;
+    bottom: 20px;
+    right: 370px;
+}
+
+.help h2 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.help p {
+    margin: 10px 0;
+    color: gray;
+    font-size: .8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.bg .social {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.bg .social i {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
 }
